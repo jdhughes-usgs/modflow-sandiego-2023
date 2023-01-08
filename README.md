@@ -3,8 +3,11 @@
 # Introduction to Groundwater Modeling Using MODFLOW
 
 Instructors: Michael Fienen, Joseph Hughes, Chris Langevin, and Josh Larsen
+
 January 9-13, 2023
+
 San Diego State University
+
 San Diego, CA
 
 This 5-day course presents an introduction to groundwater flow simulation using MODFLOW.  The course will be taught using the newly released version of MODFLOW, MODFLOW 6.  In addition to discussing the feature and mechanics of using MODFLOW 6, this course provides a review of the basic concepts of ground-water flow and emphasizes the process of simulation analysis.  A series of problem sets are presented that are designed to illustrate concepts such as the development of conceptual models and strategies for model calibration.  This course is intended as an introduction to groundwater flow modeling.  Hydrologists with extensive modeling experience looking primarily for an introduction to the new features of MODFLOW 6 should not take this course.
