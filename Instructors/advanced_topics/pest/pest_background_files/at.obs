@@ -1,0 +1,44 @@
+begin options
+  digits 20
+  print_input
+end options
+
+begin Continuous FILEOUT at.csv
+  w01 head  5  3 18 
+  w02 head  4  4 11
+  w03 head  4  7 21 
+  w04 head  4 13 23 
+  w05 head  5 15 12
+  w06 head  4 17 19
+  w07 head  4 18  2 
+  w08 head  4 19  7 
+  w09 head  4 20 12 
+  w10 head  4 19 23 
+  w11 head  4 27  6
+  w12 head  4 28 12 
+  w13 head  4 29 24
+  w14 head  4 31  7 
+  w15 head  5 34 15
+  w16 head  4 37  2
+  w17 head  4 38 23
+end Continuous
+
+begin Continuous FILEOUT at.wt.csv
+  u01 head  1  3 18 
+  u02 head  1  4 11
+  u03 head  1  7 21 
+  u04 head  1 13 23 
+  u05 head  1 15 12
+  u06 head  1 17 19
+  u07 head  1 18  2 
+  u08 head  1 19  7 
+  u09 head  1 20 12 
+  u10 head  1 19 23 
+  u11 head  1 27  6
+  u12 head  1 28 12 
+  u13 head  1 29 24
+  u14 head  1 31  7 
+  u15 head  1 34 15
+  u16 head  1 37  2
+  u17 head  1 38 23
+end Continuous

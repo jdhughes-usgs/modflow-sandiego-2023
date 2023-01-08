@@ -1,0 +1,16 @@
+BEGIN Options
+  LIST       at.lst
+END Options
+
+BEGIN Packages
+  DIS6       at.dis
+  IC6        at.ic
+  NPF6       at.npf
+  OC6        at.oc
+  CHD6       at.chd
+  RCH6       at.rch
+  RIV6       at.riv
+  WEL6       at.wel
+  OBS6       at.obs
+END Packages
+
