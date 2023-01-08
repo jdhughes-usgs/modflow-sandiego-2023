@@ -1,0 +1,16 @@
+err=1
+if [ $# = 2 ]
+then
+  err=0
+  cp *r$2.g$1 $HOME/g$1/.
+  echo Requests copied to directory
+  echo Current contents of directory are:
+  ls $HOME/g$1
+fi
+#
+if [ $err -eq 1 ]
+then
+echo "usage:    cpr  <group #>  <request #>"
+echo "example:  cpr 04 1"
+fi
+exit 0

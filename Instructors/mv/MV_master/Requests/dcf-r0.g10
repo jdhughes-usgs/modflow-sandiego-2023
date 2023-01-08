@@ -1,0 +1,74 @@
+@ set polygon fill attributes
+PF.STYLE           0
+PF.COLOR          13
+@ set polyline attributes
+PL.COLOR          10
+PL.STYLE           3
+@ set text attributes
+TX.ALIGN           2         2
+TX.COLOR           3
+TX.SIZE         0.75
+@ wait until contours have been drawn, then outline lake and stream
+@ this is the lake
+PL.BEGIN           4         1         0         1
+                4500     12000
+                2500     12000
+                2500     12500
+                2000     12500
+                2000     14000
+                1500     14000
+                1500     15000
+                1000     15000
+                1000     18000
+                1500     18000
+                1500     18500
+                3500     18500
+                3500     15500
+                4000     15500
+                4000     14500
+                4500     14500
+PL.END
+@ this is the stream
+PL.BEGIN           4         1         0         0
+                4000         0
+                4000      9000
+                4500      9000
+                4500         0
+PL.END
+@
+@ plot the well numbers at the location of each well
+@
+TX            8750.0   18750.0         4         1       0.0         0
+1
+TX            5250.0   18250.0         4         1       0.0         0
+2
+TX           10250.0   16750.0         4         1       0.0         0
+3
+TX           11250.0   13750.0         4         1       0.0         0
+4
+TX            5750.0   12750.0         4         1       0.0         0
+5
+TX            9250.0   11750.0         4         1       0.0         0
+6
+TX             750.0   11250.0         4         1       0.0         0
+7
+TX            3250.0   10750.0         4         1       0.0         0
+8
+TX            5750.0   10250.0         4         1       0.0         0
+9
+TX           11250.0   10750.0         4         1       0.0         0
+10
+TX            2750.0    6750.0         4         1       0.0         0
+11
+TX            5750.0    6250.0         4         1       0.0         0
+12
+TX           11750.0    5750.0         4         1       0.0         0
+13
+TX            3250.0    4750.0         4         1       0.0         0
+14
+TX            7250.0    3250.0         4         1       0.0         0
+15
+TX             750.0    1750.0         4         1       0.0         0
+16
+TX           11250.0    1250.0         4         1       0.0         0
+17

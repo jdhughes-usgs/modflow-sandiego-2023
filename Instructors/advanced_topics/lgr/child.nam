@@ -1,0 +1,11 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN PACKAGES
+  DIS6 child.dis
+  IC6 child.ic
+  NPF6 child.npf
+  RCH6 child.rch
+  RIV6 child.riv
+  OC6  child.oc
+END PACKAGES

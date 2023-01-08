@@ -1,0 +1,5 @@
+BASEMAP
+MVhf.shp ; Hydrologic features ; 12615680 ; 3 ; 0 ; 0
+MVdev.shp ; Development locations ; 255 ; 1 ; 0 ; 0
+MVowLab.shp ; Well numbers ; 0 ; 0 ; 0 ; 3 Value
+MVow.shp ; Well locations ; 65280 ; 0 ; 0 ; 0

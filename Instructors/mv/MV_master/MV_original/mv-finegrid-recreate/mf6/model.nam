@@ -1,0 +1,14 @@
+BEGIN options
+END options
+
+BEGIN packages
+  DIS6  model.dis  dis
+  IC6  model.ic  ic
+  NPF6  model.npf  npf
+  RIV6  model.riv  straightriver
+  RCH6  model.rch1  lake-rech
+  RCH6  model.rch2  aquifer-rech
+  OC6  model.oc  oc
+  OBS6  model.obs  obs_0
+END packages
+

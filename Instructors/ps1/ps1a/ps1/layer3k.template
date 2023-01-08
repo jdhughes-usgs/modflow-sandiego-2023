@@ -1,0 +1,10 @@
+begin gridder_template
+  template_name = layer3k
+  template_type = attribute_value
+  description = layer3kh
+  data_field = value
+  is_integer = false
+  default_value = 200
+  no_data_value = 0
+end gridder_template
+

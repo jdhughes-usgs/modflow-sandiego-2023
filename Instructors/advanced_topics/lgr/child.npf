@@ -1,0 +1,24 @@
+BEGIN OPTIONS
+  SAVE_FLOWS
+END OPTIONS
+
+BEGIN GRIDDATA
+  ICELLTYPE LAYERED
+    CONSTANT 1
+    CONSTANT 0
+    CONSTANT 0
+    CONSTANT 0
+    CONSTANT 0
+  K LAYERED
+    OPEN/CLOSE child.npf.k_aq.dat
+    OPEN/CLOSE child.npf.k_aq.dat
+    OPEN/CLOSE child.npf.k_clay.dat IPRN 5
+    OPEN/CLOSE child.npf.k_aq.dat
+    OPEN/CLOSE child.npf.k_aq.dat    
+  K33 LAYERED
+    OPEN/CLOSE child.npf.k_aq.dat FACTOR 0.25
+    OPEN/CLOSE child.npf.k_aq.dat FACTOR 0.25
+    OPEN/CLOSE child.npf.k_clay.dat IPRN 5
+    OPEN/CLOSE child.npf.k_aq.dat FACTOR 0.25
+    OPEN/CLOSE child.npf.k_aq.dat FACTOR 0.25    
+END GRIDDATA

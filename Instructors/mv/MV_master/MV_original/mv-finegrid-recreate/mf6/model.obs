@@ -1,0 +1,23 @@
+BEGIN options
+END options
+
+BEGIN continuous  FILEOUT  model.obs.csv
+  WELL-1  head  1 13 88
+  WELL-2  head  1 18 53
+  WELL-3  head  1 33 103
+  WELL-4  head  1 63 113
+  WELL-5  head  1 73 58
+  WELL-6  head  1 83 93
+  WELL-7  head  1 88 8
+  WELL-8  head  1 93 33
+  WELL-9  head  1 98 58
+  WELL-10  head  1 93 113
+  WELL-11  head  1 133 28
+  WELL-12  head  1 138 58
+  WELL-13  head  1 143 118
+  WELL-14  head  1 153 33
+  WELL-15  head  1 168 73
+  WELL-16  head  1 183 8
+  WELL-17  head  1 188 113
+END continuous  FILEOUT  model.obs.csv
+

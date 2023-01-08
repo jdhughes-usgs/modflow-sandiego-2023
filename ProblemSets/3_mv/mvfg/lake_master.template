@@ -1,0 +1,10 @@
+begin gridder_template
+  template_name = lake_master
+  template_type = attribute_value
+  description = "Master template with Lake Harbaugh polygon"
+  data_field = value
+  is_integer = false
+  default_value = 0
+  no_data_value = 0
+end gridder_template
+

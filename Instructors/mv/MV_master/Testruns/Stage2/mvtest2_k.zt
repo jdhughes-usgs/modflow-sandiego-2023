@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ZoneTemplate>
+  <DefaultValue>0</DefaultValue>
+  <Template RowCount="40" ColumnCount="25">
+    <ConstantValue>1</ConstantValue>
+  </Template>
+  <Zones />
+</ZoneTemplate>

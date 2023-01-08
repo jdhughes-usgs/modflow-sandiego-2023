@@ -1,0 +1,15 @@
+begin modflow_grid_builder modflow_1
+  length_unit = foot
+  rotation_angle = 0
+  x_offset = 0
+  y_offset = 0
+  nlay = 3
+  total_column_width = 10500
+  total_row_height = 10000
+  cell_size = 500
+  top = constant 330
+  bottom layer 1 = constant 220
+  bottom layer 2 = constant 200
+  bottom layer 3 = constant 0
+end modflow_grid_builder
+

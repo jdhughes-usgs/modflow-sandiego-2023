@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Basemap>
+  <BasemapLayer>
+    <LocalName>Mvdev.shp</LocalName>
+    <Description>Development sites</Description>
+    <Color>
+      <R>255</R>
+      <G>0</G>
+      <B>0</B>
+    </Color>
+    <Size>1</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>Mvhf.shp</LocalName>
+    <Description>Hydrologic features</Description>
+    <Color>
+      <R>0</R>
+      <G>255</G>
+      <B>255</B>
+    </Color>
+    <Size>2</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>Mvow.shp</LocalName>
+    <Description>Observation wells</Description>
+    <Color>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </Color>
+    <Size>3</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+</Basemap>

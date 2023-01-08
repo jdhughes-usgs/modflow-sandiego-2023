@@ -1,0 +1,13 @@
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+end options
+
+begin dimensions
+  open/close mv.chd.dimensions.dat
+end dimensions
+
+begin period 1
+  open/close mv.chd.period1.dat
+end period

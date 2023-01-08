@@ -1,0 +1,44 @@
+# This example file assumes 5 model layers and
+# that the clay layer is in layer 3.
+#
+# This example also assumes that the aquifer k
+# is the same in all model layers. We use 
+# the OPEN/CLOSE method to access all of the k
+# arrays in external csv files.
+#
+# The FACTOR 0.25 term for all of the K33 layers 
+# is a way to use the same horizontal k file for 
+# vertical k and reduce all of the vertical k values
+# to 1/4 of the horizontal k values.
+#
+# Note that these assumptions mean that we only
+# need to have two external k files to define the
+# entire system: k_aq.csv and k_clay.csv.
+# Also, because all of the k values are defined
+# in the external runs we never need to change this
+# NPF file anymore no matter how many calibration
+# runs we make. All k changes will occur in the 
+# external array files.
+
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN GRIDDATA
+  ICELLTYPE
+    CONSTANT 1
+  K LAYERED
+    OPEN/CLOSE k_aq.csv
+    OPEN/CLOSE k_aq.csv
+    OPEN/CLOSE k_clay.csv
+    OPEN/CLOSE k_aq.csv
+    OPEN/CLOSE k_aq.csv    
+  K33 LAYERED
+    OPEN/CLOSE k_aq.csv FACTOR 0.25
+    OPEN/CLOSE k_aq.csv FACTOR 0.25
+    OPEN/CLOSE k_clay.csv
+    OPEN/CLOSE k_aq.csv FACTOR 0.25
+    OPEN/CLOSE k_aq.csv FACTOR 0.25    
+END GRIDDATA
+
+
+

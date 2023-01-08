@@ -1,0 +1,13 @@
+BEGIN options
+  PRINT_OPTION  summary
+END options
+
+BEGIN nonlinear
+  OUTER_MAXIMUM  50
+END nonlinear
+
+BEGIN linear
+  INNER_MAXIMUM  500
+  RELAXATION_FACTOR       0.97000000
+END linear
+

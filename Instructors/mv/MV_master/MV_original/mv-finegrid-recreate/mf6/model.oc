@@ -1,0 +1,8 @@
+BEGIN options
+  HEAD  FILEOUT  model.hds
+END options
+
+BEGIN period  1
+  SAVE  head  all
+END period  1
+

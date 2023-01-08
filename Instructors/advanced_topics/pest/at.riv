@@ -1,0 +1,15 @@
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+  BOUNDNAMES
+  OBS6 FILEIN riv.obs
+end options
+
+begin dimensions
+  MAXBOUND 18
+end dimensions
+
+begin period 1
+  open/close riv.ref
+end period

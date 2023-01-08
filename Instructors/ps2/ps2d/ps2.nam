@@ -1,0 +1,15 @@
+BEGIN Options
+  LIST       ps2.lst
+END Options
+
+BEGIN Packages
+  DIS6       ps2.dis
+  IC6        ps2.ic
+  NPF6       ps2.npf
+  OC6        ps2.oc
+  RIV6       ps2.riv
+  RCH6       ps2.rch
+  DRN6       ps2.drn
+  WEL6       ps2.wel
+END Packages
+

@@ -1,0 +1,13 @@
+begin options
+  PRINT_INPUT
+  PRINT_FLOWS
+  SAVE_FLOWS
+end options
+
+begin dimensions
+  OPEN/CLOSE child.riv.dimensions.dat
+end dimensions
+
+begin period 1
+  OPEN/CLOSE child.riv.dat
+end period

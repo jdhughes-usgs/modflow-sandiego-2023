@@ -1,0 +1,22 @@
+HEADVIEW
+bigmodel.dis
+
+<DATAFILES>
+# Add head and drawdown data files here
+   D:\Data\Training\GW2096TC\EXER\Week2\McValley\TestRuns\TestBig\BIGMODEL.HED
+</DATAFILES>
+
+<SHAPEFILES>
+# Add shapefiles here
+   MVhf.shp ; Hydrologic features ; 0 255 255 ; 3 ; 0 ; 0
+   MVdev.shp ; Development locations ; 255 0 0 ; 1 ; 0 ; 0
+   MVow.shp ; Observation wells ; 0 0 0 ; 0 ; 0 ; 3 Value
+</SHAPEFILES>
+
+<OPTIONS>
+# Add display options here
+   ContourColor = 16711680
+   GridColor = 12632256
+   LineWeight = 1
+   BackgroundColor = 16777215
+</OPTIONS>

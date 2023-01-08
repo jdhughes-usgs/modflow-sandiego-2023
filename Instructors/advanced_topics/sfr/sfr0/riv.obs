@@ -1,0 +1,8 @@
+begin options
+  digits 10
+  print_input
+end options
+
+begin Continuous FILEOUT riv.csv
+  GWFFLOW  RIV    RIVER
+end Continuous

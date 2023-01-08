@@ -1,0 +1,339 @@
+
+
+                         McDonald Valley Calibration Exercise
+
+
+                                    INTRODUCTION
+
+   In this problem, we have designed a hypothetical field problem. You will
+get to go through a simulation analysis much as you would in simulating a real
+field problem. The exercise is intended to give you experience in calibrating
+a flow model when you have limited information and are forced to make
+decisions about how to use limited resources to obtain useful new information.
+We will approach this problem in four stages:
+
+
+STAGE 1 --
+
+  Review the existing information and the project objectives to design an
+  effective approach to simulating the system. It is at this stage where you
+  want to consider the pros and cons of various boundary conditions,
+  discretization schemes, etc.
+
+
+STAGE 2 --
+
+  Make a first attempt at developing a calibrated model for the predevelopment
+  condition based on existing data that we will give you.
+
+
+STAGE 3 --
+
+  Obtain new field information to help you improve your description of the flow
+  system. Use the new information to refine your calibrated predevelopment
+  model. You should use your simulations in stage 2 to guide your data
+  collection activities in stage 3. In real life, you always have limited
+  resources and are forced to make choices about what kind of information is
+  worth obtaining and what is not. We try to create that same type of situation
+  in this problem by setting up a simulated "project" with an initial amount of
+  money that you can use to buy information, such as drilling wells, conducting
+  slug tests, running seismic sections, etc. The budget is tight, so you will
+  be forced to think carefully about what information to buy.
+
+
+STAGE 4 --
+
+  Simulate the effects of the proposed stresses using the calibrated parameters
+  from stage 3.
+
+
+
+                               Background Information
+
+  McDonald Valley is an undeveloped, closed alluvial valley surrounded by low
+permeability crystalline bedrock (figures 1 and 2). The valley is dominated by
+scenic Lake Harbaugh located in the northwest corner of the valley (lots are
+available).  Lake Harbaugh sits in a gentle depression that is bounded by Sand
+Ridge, which extends from the western edge of the valley to the northeastern
+corner. The south face of Sand Ridge is relatively steep. South of Sand Ridge,
+the valley slopes gently toward the southern boundary. The Straight River,
+which has its headwaters at the base of sand ridge just south of Lake
+Harbaugh, flows south and eventually leaves the valley along the southern
+boundary. 
+
+  You have been given the task of examining the possible effects of ground
+water development that has been proposed for McDonald Valley. The following
+development has been proposed:
+
+
+  1. A 268,000 ft3/d well in the southern part of the valley at either site 1
+or site 2 as shown in figure 2. The well would provide a water supply for
+Virginia City located to the south of McDonald Valley.
+
+  2. A 67,000 ft3/d well is located in the northern part of the valley (site 3
+in figure 2). This well would provide natural spring water for Reilly's
+Premium Beverages, Inc. 
+
+
+The county is concerned about the effect of this development. Specifically,
+the county is concerned that:
+
+  1. Development will cause excessive water table declines in the northern
+half of the valley where a number of summer homes have very shallow water
+table wells that are used for domestic supply. The county has established the
+requirement that any development not cause more than a 2 foot decline in the
+water table anywhere in the northern half of the valley. Consultants for the
+Reilly Brewing Company contend that pumping from the Reilly well will have a
+negligible effect on the water table because the well will be placed below a
+clay layer that occurs across much of the northern part of the valley.
+
+  2. McDonald Valley is the site of the Pollock's Ford National Historic Site
+and Recreation Area located 1000 feet south of the headwaters of the Straight
+River. Pollock's Ford is the site of an heroic fording of the Straight River
+during the battle for Sand Ridge during the American Revolution. Even though
+easier routes around the north side of the headwaters were discovered within
+minutes of Pollock's heroic crossing, the event nevertheless remains one of
+extreme historic importance. The county maintains a stream gage at Pollock's
+Ford and has decided that any potential development by Virginia City or
+Reilly's Brewery must not reduce the stream flow at that site by more than 20
+percent. In addition, the county is requiring that development not lead to any
+induced infiltration from the Straight River anywhere along its course.
+
+  3. Water quality issues:
+
+      A. An increase in the number of vacation cabins in the northern part of
+the valley has lead to concern about the impact of septic systems on Lake
+Harbaugh. The county is interested in determining the source area for ground
+water that discharges to Lake Harbaugh so that it can develop effective and
+rational regulations for septic system permits. 
+
+      B. Reilly's was required to do a capture zone analysis to determine the
+source area for its deep well. The company's consultants did a model of the
+Reilly site and concluded that the source area is contained entirely within
+the Reilly property. The county suspects that that analysis is not correct
+because the boundaries of the model extended only to the property lines of 
+the Reilly facility. A flow model of the entire valley would provide a better
+basis for evaluating the source area for the well.
+
+      C. The county is requiring capture zone analyses for the proposed
+Virginia City wells.
+   
+
+
+
+
+                  Hydrogeology and Hydrology of McDonald Valley
+
+Hydrogeology
+------------
+
+   The valley contains unconsolidated valley fill alluvium. No hydraulic tests
+have been performed in the valley, but the sediments are similar to those in
+other valleys in the area which generally have horizontal hydraulic
+conductivities ranging between 10 feet/day and 500 feet/day. The sediments are
+predominantly medium to coarse grained sands and some gravels, however a low
+permeability lake clay has been observed in some bore holes in the valley. The
+valley contains 17 existing observations wells. Well logs for those 17 wells
+are presented in Table 1. The crystalline bedrock surrounding the valley has a
+very low hydraulic conductivity.
+
+
+Hydrology
+---------
+
+    The hydrologic system in McDonald Valley is in steady state with no
+significant seasonal or short term fluctuations in conditions.
+
+    McDonald Valley has a mean annual precipitation of 36 inches per year
+based on measurements made at Lake Harbaugh. Other stations in the area also
+report annual precipitation of 36 inches per year. 
+
+    There is no surface water inflow into the valley. The Straight River
+originates in McDonald Valley. The headwaters of the river is located 9000
+feet upstream from the southern boundary of the valley. The river stage at the
+southern boundary of the valley is defined to be 0, the datum to which all
+other head measurements in the valley are referenced. The stream gradient is
+0.0002, which corresponds to a stage of 1.8 feet at the headwaters. The river
+is approximately 100 feet wide over its entire length and has a depth of 1
+foot or less in most locations. Stream gages are located at the river's
+southern discharge point and at Pollock's Ford.
+
+
+               Measured Stream Flow (ft3/d)         Location
+               -----------------------------------------------------
+                      884,494             Southern Boundary (gage 1)
+                       96,402                Pollock's Ford (gage 2)
+
+
+    Lake Harbaugh is a dominant hydrologic feature in the valley. A previous
+study of Lake Harbaugh yielded the following information:
+
+               Stage = 11 feet  
+    Area of the lake = 1.625 x 10**7 square feet
+    Lake Evaporation = 27 inches per year (2.25 ft/y)
+       Precipitation = 36 inches per year (3 ft/y)
+
+Lake Harbaugh is a closed lake with no surface water inflow or outflow. The
+morphology of the lake basin consists of a relatively steep sloping shore that
+levels out to a very uniform depth of 16 feet within 50 feet of the lake
+shore. The lake bottom is sandy and free of fine grained sediments over most
+of its bottom, especially near the shore. Very minor amounts of fine grained
+sediments occur in the very center of the lake basin.
+
+
+                                Table 1
+           
+                        Data for Existing Wells
+
+  
+ *********************************** Well  1 *********************************
+ (Row  3  Column 18)
+ Top of screen = -195.74 feet; Bottom of screen = -200.74 feet
+ Water Table =   12.05 feet;  Head in screened interval =   11.85
+  
+ Drillers Log : 
+   12.05 to  -50.65 >very coarse sand with occasional thin gravel layers
+  -50.65 to  -51.87 >tight clay
+  -51.87 to -200.74 >very coarse sand with occasional thin gravel layers
+ -200.74 to    ?    >Bedrock
+  
+ *********************************** Well  2 *********************************
+ (Row  4  Column 11)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =   11.63 feet;  Head in screened interval =   11.35
+  
+ Drillers Log : 
+   11.63 to  -50.35 >coarse sand with occasional stringers of fine sand
+  -50.35 to  -51.47 >tight clay
+  -51.47 to -100.00 >coarse sand with occasional stringers of fine sand
+  
+ *********************************** Well  3 *********************************
+ (Row  7  Column 21)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =   12.15 feet;  Head in screened interval =   11.83
+  
+ Drillers Log : 
+   12.15 to  -50.86 >medium sand with some interbedded fine sand
+  -50.86 to  -51.95 >tight clay
+  -51.95 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well  4 *********************************
+ (Row 13  Column 23)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =   11.44 feet;  Head in screened interval =   11.43
+  
+ Drillers Log : 
+   11.44 to -100.00 >coarse sand with occasional stringers of fine sand
+  
+ *********************************** Well  5 *********************************
+ (Row 15  Column 12)
+ Top of screen = -219.62 feet; Bottom of screen = -224.62 feet
+ Water Table =   10.86 feet;  Head in screened interval =   10.50
+  
+ Drillers Log : 
+   10.86 to  -50.59 >medium sand with some interbedded fine sand
+  -50.59 to  -51.93 >tight clay
+  -51.93 to -224.62 >medium sand with some interbedded fine sand
+ -224.62 to    ?    >Bedrock
+  
+ *********************************** Well  6 *********************************
+ (Row 17  Column 19)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =   10.80 feet;  Head in screened interval =   10.79
+  
+ Drillers Log : 
+   10.80 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well  7 *********************************
+ (Row 18  Column  2)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    9.16 feet;  Head in screened interval =    9.13
+  
+ Drillers Log : 
+    9.16 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well  8 *********************************
+ (Row 19  Column  7)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    8.82 feet;  Head in screened interval =    8.79
+  
+ Drillers Log : 
+    8.82 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well  9 *********************************
+ (Row 20  Column 12)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    8.86 feet;  Head in screened interval =    8.83
+  
+ Drillers Log : 
+    8.86 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 10 *********************************
+ (Row 19  Column 23)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =   10.65 feet;  Head in screened interval =   10.64
+  
+ Drillers Log : 
+   10.65 to -100.00 >coarse sand with occasional stringers of fine sand
+  
+ *********************************** Well 11 *********************************
+ (Row 27  Column  6)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    4.26 feet;  Head in screened interval =    4.25
+  
+ Drillers Log : 
+    4.26 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 12 *********************************
+ (Row 28  Column 12)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    4.19 feet;  Head in screened interval =    4.18
+  
+ Drillers Log : 
+    4.19 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 13 *********************************
+ (Row 29  Column 24)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    7.57 feet;  Head in screened interval =    7.56
+  
+ Drillers Log : 
+    7.57 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 14 *********************************
+ (Row 31  Column  7)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    2.70 feet;  Head in screened interval =    2.69
+  
+ Drillers Log : 
+    2.70 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 15 *********************************
+ (Row 34  Column 15)
+ Top of screen = -228.22 feet; Bottom of screen = -233.22 feet
+ Water Table =    4.59 feet;  Head in screened interval =    4.57
+  
+ Drillers Log : 
+    4.59 to -233.22 >medium sand with some interbedded fine sand
+ -233.22 to    ?    >Bedrock
+  
+ *********************************** Well 16 *********************************
+ (Row 37  Column  2)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    2.76 feet;  Head in screened interval =    2.73
+  
+ Drillers Log : 
+    2.76 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 17 *********************************
+ (Row 38  Column 23)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    6.23 feet;  Head in screened interval =    6.22
+  
+ Drillers Log : 
+    6.23 to -100.00 >medium sand with some interbedded fine sand
+  
+
+                              
+   
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModflowMetadata>
+  <GridGeoReference>
+    <OriginX>0</OriginX>
+    <OriginY>0</OriginY>
+    <Angle>0</Angle>
+    <ProjectionString />
+  </GridGeoReference>
+  <BasemapFile>C:\Data\Training\gw2096\Instructor\ProblemSets\PS4\MV_master\Testruns\Basemap\mv.basemap</BasemapFile>
+</ModflowMetadata>

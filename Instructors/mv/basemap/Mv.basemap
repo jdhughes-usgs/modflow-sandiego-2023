@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Basemap>
+  <BasemapLayer>
+    <LocalName>Mvdev.shp</LocalName>
+    <Description>Mvdev.shp data</Description>
+    <Color>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </Color>
+    <Size>1</Size>
+    <Style>2</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>Mvhf.shp</LocalName>
+    <Description>Mvhf.shp data</Description>
+    <Color>
+      <R>0</R>
+      <G>255</G>
+      <B>255</B>
+    </Color>
+    <Size>2</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>Mvow.shp</LocalName>
+    <Description>Mvow.shp data</Description>
+    <Color>
+      <R>0</R>
+      <G>0</G>
+      <B>0</B>
+    </Color>
+    <Size>2</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>Mvbasin.shp</LocalName>
+    <Description>Mvbasin.shp data</Description>
+    <Color>
+      <R>255</R>
+      <G>128</G>
+      <B>255</B>
+    </Color>
+    <Size>2</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+</Basemap>

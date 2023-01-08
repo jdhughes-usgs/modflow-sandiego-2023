@@ -1,0 +1,150 @@
+g03 ;  request 0                                                           
+  
+ -------------------- < Data for New Wells > --------------------
+ *********************************** Well  1 *********************************
+ (Row  3  Column 18)
+ Top of screen = -195.74 feet; Bottom of screen = -200.74 feet
+ Water Table =   12.05 feet;  Head in screened interval =   11.85
+  
+ Drillers Log : 
+   12.05 to  -50.65 >very coarse sand with occasional thin gravel layers
+  -50.65 to  -51.87 >tight clay
+  -51.87 to -200.74 >very coarse sand with occasional thin gravel layers
+ -200.74 to    ?    >Bedrock
+  
+ *********************************** Well  2 *********************************
+ (Row  4  Column 11)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =   11.63 feet;  Head in screened interval =   11.35
+  
+ Drillers Log : 
+   11.63 to  -50.35 >coarse sand with occasional stringers of fine sand
+  -50.35 to  -51.47 >tight clay
+  -51.47 to -100.00 >coarse sand with occasional stringers of fine sand
+  
+ *********************************** Well  3 *********************************
+ (Row  7  Column 21)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =   12.15 feet;  Head in screened interval =   11.83
+  
+ Drillers Log : 
+   12.15 to  -50.86 >medium sand with some interbedded fine sand
+  -50.86 to  -51.95 >tight clay
+  -51.95 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well  4 *********************************
+ (Row 13  Column 23)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =   11.44 feet;  Head in screened interval =   11.43
+  
+ Drillers Log : 
+   11.44 to -100.00 >coarse sand with occasional stringers of fine sand
+  
+ *********************************** Well  5 *********************************
+ (Row 15  Column 12)
+ Top of screen = -219.62 feet; Bottom of screen = -224.62 feet
+ Water Table =   10.86 feet;  Head in screened interval =   10.50
+  
+ Drillers Log : 
+   10.86 to  -50.59 >medium sand with some interbedded fine sand
+  -50.59 to  -51.93 >tight clay
+  -51.93 to -224.62 >medium sand with some interbedded fine sand
+ -224.62 to    ?    >Bedrock
+  
+ *********************************** Well  6 *********************************
+ (Row 17  Column 19)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =   10.80 feet;  Head in screened interval =   10.79
+  
+ Drillers Log : 
+   10.80 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well  7 *********************************
+ (Row 18  Column  2)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    9.16 feet;  Head in screened interval =    9.13
+  
+ Drillers Log : 
+    9.16 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well  8 *********************************
+ (Row 19  Column  7)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    8.82 feet;  Head in screened interval =    8.79
+  
+ Drillers Log : 
+    8.82 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well  9 *********************************
+ (Row 20  Column 12)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    8.86 feet;  Head in screened interval =    8.83
+  
+ Drillers Log : 
+    8.86 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 10 *********************************
+ (Row 19  Column 23)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =   10.65 feet;  Head in screened interval =   10.64
+  
+ Drillers Log : 
+   10.65 to -100.00 >coarse sand with occasional stringers of fine sand
+  
+ *********************************** Well 11 *********************************
+ (Row 27  Column  6)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    4.26 feet;  Head in screened interval =    4.25
+  
+ Drillers Log : 
+    4.26 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 12 *********************************
+ (Row 28  Column 12)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    4.19 feet;  Head in screened interval =    4.18
+  
+ Drillers Log : 
+    4.19 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 13 *********************************
+ (Row 29  Column 24)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    7.57 feet;  Head in screened interval =    7.56
+  
+ Drillers Log : 
+    7.57 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 14 *********************************
+ (Row 31  Column  7)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    2.70 feet;  Head in screened interval =    2.69
+  
+ Drillers Log : 
+    2.70 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 15 *********************************
+ (Row 34  Column 15)
+ Top of screen = -228.22 feet; Bottom of screen = -233.22 feet
+ Water Table =    4.59 feet;  Head in screened interval =    4.57
+  
+ Drillers Log : 
+    4.59 to -233.22 >medium sand with some interbedded fine sand
+ -233.22 to    ?    >Bedrock
+  
+ *********************************** Well 16 *********************************
+ (Row 37  Column  2)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    2.76 feet;  Head in screened interval =    2.73
+  
+ Drillers Log : 
+    2.76 to -100.00 >medium sand with some interbedded fine sand
+  
+ *********************************** Well 17 *********************************
+ (Row 38  Column 23)
+ Top of screen =  -95.00 feet; Bottom of screen = -100.00 feet
+ Water Table =    6.23 feet;  Head in screened interval =    6.22
+  
+ Drillers Log : 
+    6.23 to -100.00 >medium sand with some interbedded fine sand
+  

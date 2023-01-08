@@ -1,0 +1,14 @@
+BEGIN Options
+  LIST       ps2.lst
+END Options
+
+BEGIN Packages
+  DIS6       ps2.dis
+  IC6        ps2.ic
+  NPF6       ps2.npf
+  OC6        ps2.oc
+  RIV6       ps2.riv
+  RCH6       ps2.rch
+  GHB6       ps2.ghb
+END Packages
+

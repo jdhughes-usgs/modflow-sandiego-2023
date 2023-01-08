@@ -1,0 +1,27 @@
+
+ GOPKS:Error file unit number   81 is already open.
+         It will be used for error reporting.
+         Its name is:     errors.gks                                                      
+GETMON:plotter        3360        2400    10.5000        7.50000    
+
+ WRN:XXX In GSTXFP text precision ignored.  Only the font number
+     has meaning in this GKS interface.
+
+ WRN:XXX In GSCHCP character spacing change not supported.
+
+ ERR:XXX Vertical text alignment code=    5 not yetsupported.
+     Only support vert. text alignm: base.
+
+ ERR:XXX Vertical text alignment code=    3 not yetsupported.
+     Only support vert. text alignm: base.
+
+ ERR:XXX Vertical text alignment code=    5 not yetsupported.
+     Only support vert. text alignm: base.
+
+ ERR:XXX Vertical text alignment code=    3 not yetsupported.
+     Only support vert. text alignm: base.
+
+ WRN:XXX In GSTXFP text precision ignored.  Only the font number
+     has meaning in this GKS interface.
+
+ WRN:XXX In GSCHCP character spacing change not supported.

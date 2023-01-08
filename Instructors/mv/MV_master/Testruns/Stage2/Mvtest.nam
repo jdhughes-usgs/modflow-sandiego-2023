@@ -1,0 +1,10 @@
+LIST                  2 MVTEST.LST
+DIS                   3 MVTEST.DIS
+BAS6                  4 MVTEST.BA6
+RIV                  14 MVTEST.RIV
+RCH                  18 MVTEST.RCH
+OC                   22 MVTEST.OC
+PCG                  23 MVTEST.PCG
+LPF                  33 MVTEST.LPF
+DATA(BINARY)         50 MVTEST.HED
+DATA(BINARY)         53 MVTEST.BUD

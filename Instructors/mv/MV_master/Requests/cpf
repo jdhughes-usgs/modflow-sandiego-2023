@@ -1,0 +1,15 @@
+err=1
+if [ $# = 2 ]
+then
+  err=0
+  cp data-$1.g$2  /ntc/work/modflow/cop$2
+  cp wells-$1.g$2  /ntc/work/modflow/cop$2
+  cp dcf-$1.g$2  /ntc/work/modflow/cop$2
+fi
+#
+if [ $err -eq 1 ]
+then
+echo "usage:   cpf  <request #>  <group #>"
+echo "example: cpf r1 05"
+fi
+exit 0

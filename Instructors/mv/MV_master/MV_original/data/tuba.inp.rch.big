@@ -1,0 +1,31 @@
+           2            1=(x,y) Locations, 2=Gridded output
+           2            1=Point Centered,  2=Block Centered
+    125.0000  200.0000  Maximum X and Y Field Dimensions
+         125       200  Number of Nodes-X and Nodes-Y
+           1            1=Normal, 2=exp(X), 3=10**(X)
+           1            0=User,1=Exp,2=Gauss,3=Besl,4=Telis,5=GC
+      1.0000    0.0010  Desired Mean and Variance
+     10.0000   10.0000  X and Y Direction Correlation Lengths
+           1            1=Point Process, 2=Areal Average Process
+           1            1=Default TBM Parameters, 2=Enter Manually
+tuba.out                Output Data Filename
+           2            1=Unformatted, 2=Formatted Output
+(10F8.4)                Output Format for Writing Data to Disk
+           2            1=Single Write Statement, 2=Line at a Time
+           1            1=First Row to Last, 2=Last Row to First
+           2            1=Marsaglia URNG, 2=Machine Indep URNG
+    48209817            Seed for Random Number Generator
+           1            Number of Realizations to be Simulated
+
+           ! Number of  Turning Band Lines  Equals =     16
+           ! The Maximum Turning Band Line  Length =    235.84953
+           ! Turning Band Line Discretization Lgth =      0.62500
+           ! Maximum Frequency  for  the  Spectrum =    100.53097
+           ! Number of Harmonics for  the Spectrum =   2048
+           ! Frequency Spacing  in Spectral Domain =      0.04909
+
+           ! Spatial Discretizations,  DELX & DELY =      1.0      1.0
+           ! No Pnts/correlation Length in X,Y Dir =     10.0     10.0
+           ! Approx Number of  Independent Samples =     62.5
+           !                      The Sample Mean  =      0.99742
+           !                      Sample Variance  =      0.00102

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Basemap>
+  <BasemapLayer>
+    <LocalName>Mvhf.shp</LocalName>
+    <Description>Hydrologic features (gridded)</Description>
+    <Color>
+      <R>0</R>
+      <G>255</G>
+      <B>255</B>
+    </Color>
+    <Size>3</Size>
+    <Style>1</Style>
+    <Visible>False</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>Mvdev.shp</LocalName>
+    <Description>Well development sites</Description>
+    <Color>
+      <R>255</R>
+      <G>0</G>
+      <B>0</B>
+    </Color>
+    <Size>2</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>lake_harbaugh.shp</LocalName>
+    <Description>Lake Harbaugh</Description>
+    <Color>
+      <R>0</R>
+      <G>255</G>
+      <B>255</B>
+    </Color>
+    <Size>2</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>straight_river.shp</LocalName>
+    <Description>Straight River</Description>
+    <Color>
+      <R>0</R>
+      <G>255</G>
+      <B>255</B>
+    </Color>
+    <Size>2</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+</Basemap>

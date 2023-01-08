@@ -1,0 +1,14 @@
+begin modflow_grid modflow_1
+  length_unit = foot
+  rotation_angle = 0
+  x_offset = 0
+  y_offset = 0
+  nlay = 1
+  nrow = 40
+  ncol = 25
+  delr = constant 500
+  delc = constant 500
+  top = constant 50
+  bottom layer 1 = constant -200
+end modflow_grid
+

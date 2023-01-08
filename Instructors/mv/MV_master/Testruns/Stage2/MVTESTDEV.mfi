@@ -1,0 +1,42 @@
+MFI file for saving UCODE control data
+ Do not modify the file structure
+ 3            Verbose
+ 1            ModelMassUnits
+ 1            Sensitivities
+ 0            Optimize
+ 0            Linearity
+ 0            Prediction
+ 0            LinearityAdv
+ 1            EigenValues
+ 1            StartRes
+ 0            IntermedRes
+ 1            Finalres
+ 2            StartSens
+ 7            IntermedSens
+ 2            FinalSens
+  1.00000E-02 TolPar
+  0.00000E+00 TolSOSC
+ 10            MaxIter
+  2.00000E+00 MaxChange
+ 1            MaxChangerealm
+  1.50000E+00 MqrtFactor
+  8.54000E+01 MqrtDirection
+  1.00000E-03 MqrtIncrement
+ 0            QuasiNewton
+ 5            QNiter
+  1.00000E-02 QNsosr
+ 0            NPRIOR
+ 0     OmitInsensitive
+  5.00000E-03   MinimumSensRatio
+  2.00000E-02   ReincludeSensRatio
+ 1       TrustRegion
+ -1.00000E+00          MaxStep
+ 5       ConsecMax
+ 0      SOSsurface
+ 5       SOSIncrement
+ 0      CreateInitFiles
+ 0   UCODE Parameters
+ 0   Flow observations
+ 0   Head observations
+MF2005
+UCODE_2005

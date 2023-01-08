@@ -1,0 +1,87 @@
+              McDonald Valley Calibration Exercise -- Stage 2
+
+   CALIBRATION FOR PREDEVELOPMENT CONDITIONS USING PRE-EXISTING INFORMATION
+
+
+During this stage of the exercise you will calibrate your flow model for
+predevelopment conditions using the existing information that we have
+provided. Calibration involves selectively adjusting aspects of your model,
+such as hydraulic parameters and boundary conditions, so that the simulated
+results reproduce the observations as closely as possible. Remember not to
+fall into the trap of treating calibration solely as a curve fitting
+procedure. You should always try to adjust parameters within ranges that you
+can justify based on what you know about the system and to avoid adjusting
+parameters in ways that cannot be supported. That almost always means your
+"calibrated" model will be less than perfect when you are finished.  However,
+the calibration process can provide you with a great deal of insight into what
+hydrologic features are really important in controlling the function of the
+ground water system. You can use this insight to plan your field work so that
+you will be able to obtain new data to fill in gaps in areas that are of
+critical importance.
+
+As you construct your calibrated model, keep the following things in mind:
+
+1. What are the critical elements of the hydrology of the McDonald Valley
+   ground water system that the model must reproduce?
+
+2. To what parameters is the model most sensitive?
+
+3. What are the critical gaps in information and what kind of data should be
+   collected to fill those gaps.
+
+Attached are some worksheets to help you summarize the results of your
+calibration analysis.
+
+
+                     Calibration Exercise -- Stage 2
+
+                                Worksheet
+
+
+
+1.  The head at the water table (layer 1) for cells:
+
+  well number    row    column     head    (Simulated - Observed)
+  ---------------------------------------------------------------
+       3          7       21
+
+       6         17       19 
+ 
+       8         19        7
+
+      11         27        6
+
+      14         31        7
+
+      16         37        2
+
+      17         38       23
+
+
+2.  The hydraulic conductivity in layer 1 for cells:
+
+
+      row       column      hydraulic conductivity
+   ------------------------------------------------
+      19           7
+
+      38          23
+
+       7          21
+
+
+3.  The river conductance (or a range if it was not a constant).
+
+
+4.  On one of the attached map worksheets, sketch the hydraulic conductivity
+    distribution in model layer 1.
+
+
+5.  On one of the attached map worksheets, sketch the distribution of the
+    clay layer. 
+
+6.  The vertical conductivity value for the clay (or a range if it was not a constant).
+
+
+
+

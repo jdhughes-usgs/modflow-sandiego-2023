@@ -1,0 +1,26 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN DIMENSIONS
+  open/close mv.disv.dimensions.dat
+END DIMENSIONS
+
+BEGIN GRIDDATA
+  TOP
+    CONSTANT 100.
+  BOTM LAYERED
+    CONSTANT -5.
+    CONSTANT -50.
+    CONSTANT -51.
+    CONSTANT -100.
+    OPEN/CLOSE  mv.disv.botm5.dat
+END GRIDDATA
+
+BEGIN VERTICES
+  open/close mv.disv.vertices.dat
+END VERTICES
+
+BEGIN CELL2D
+  open/close mv.disv.cell2d.dat
+END CELL2D
+

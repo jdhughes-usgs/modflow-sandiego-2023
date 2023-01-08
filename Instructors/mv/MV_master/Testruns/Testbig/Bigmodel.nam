@@ -1,0 +1,10 @@
+LIST                  2 BIGMODEL.LST
+DIS                   3 BIGMODEL.DIS
+BAS6                  4 BIGMODEL.BA6
+RIV                  14 BIGMODEL.RIV
+RCH                  18 BIGMODEL.RCH
+OC                   22 BIGMODEL.OC
+PCG                  23 BIGMODEL.PCG
+LPF                  33 BIGMODEL.LPF
+DATA(BINARY)         50 BIGMODEL.HED
+DATA(BINARY)         53 BIGMODEL.BUD

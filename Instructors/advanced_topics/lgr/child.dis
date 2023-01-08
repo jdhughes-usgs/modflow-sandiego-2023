@@ -1,0 +1,23 @@
+BEGIN OPTIONS
+END OPTIONS
+
+BEGIN DIMENSIONS
+  NLAY 5
+  NROW 27
+  NCOL 27
+END DIMENSIONS
+
+BEGIN GRIDDATA
+  DELR
+    CONSTANT 166.6666717529297
+  DELC
+    CONSTANT 166.6666717529297
+  TOP
+    OPEN/CLOSE child.dis.top.dat
+  BOTM LAYERED
+    OPEN/CLOSE child.dis.botm1.dat
+    OPEN/CLOSE child.dis.botm2.dat
+    OPEN/CLOSE child.dis.botm3.dat
+    OPEN/CLOSE child.dis.botm4.dat
+    OPEN/CLOSE child.dis.botm5.dat
+END GRIDDATA

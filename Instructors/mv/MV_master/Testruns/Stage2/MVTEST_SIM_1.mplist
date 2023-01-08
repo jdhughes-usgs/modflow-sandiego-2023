@@ -1,0 +1,346 @@
+
+MODPATH - Version 6.0.01  August 24, 2012                 
+U.S. GEOLOGICAL SURVEY PARTICLE TRACKING MODEL FOR MODFLOW
+
+Simulation File: MVTEST_SIM_1.mpsim                                                                                                                                                                                      
+  
+--------------------------------------------
+Allocating and reading data for grid  1
+--------------------------------------------
+
+ OPENING MVTEST.MPBAS
+ FILE TYPE:MPBAS   UNIT   70   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING MVTEST.DIS
+ FILE TYPE:DIS   UNIT    3   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING MVTEST.HED
+ FILE TYPE:HEAD   UNIT    1   STATUS:OLD    
+ FORMAT:UNFORMATTED            ACCESS:STREAM              
+
+ OPENING MVTEST.BUD
+ FILE TYPE:BUDGET   UNIT    2   STATUS:OLD    
+ FORMAT:UNFORMATTED            ACCESS:STREAM              
+
+ DISCRETIZATION INPUT DATA READ FROM UNIT    3
+ #DATA | BASEMAP | ..\Basemap\basemap1.hvb
+    3 LAYERS        40 ROWS        25 COLUMNS
+    1 STRESS PERIOD(S) IN SIMULATION
+ MODEL TIME UNIT IS DAYS
+ MODEL LENGTH UNIT IS FEET
+  Confining bed flag for each layer:
+   0   1   0
+
+                     DELR =   500.000    
+
+                     DELC =   500.000    
+
+ TOP ELEVATION OF LAYER 1 =   50.0000    
+
+   MODEL LAYER BOTTOM EL. =  -5.00000     FOR LAYER   1
+
+   MODEL LAYER BOTTOM EL. =  -50.0000     FOR LAYER   2
+
+ BOT. EL. OF QUASI-3D BED =  -51.0000     FOR LAYER   2
+
+   MODEL LAYER BOTTOM EL. =  -200.000     FOR LAYER   3
+
+
+ STRESS PERIOD     LENGTH       TIME STEPS     MULTIPLIER FOR DELT    SS FLAG
+ ----------------------------------------------------------------------------
+        1         1.000000          1                    1.000         SS
+
+ STEADY-STATE SIMULATION
+ 
+
+ AQUIFER HEAD IS SET TO 1.00000E+30 AT ALL NO-FLOW NODES (IBOUND=0).
+ AQUIFER HEAD IS SET TO 1.00000E+30 AT ALL DRY NODES.
+ 
+ 
+ Default stress package boundary face options (IFACE):
+   RECHARGE will be assigned to face  6
+   ET will be assigned to face  6
+ 
+ LAYER TYPE(LAYTYP)
+  1 0 0
+
+
+
+                     BOUNDARY ARRAY FOR LAYER   1
+ READING ON UNIT   70 WITH FORMAT: (20I4)              
+
+                1           2           3           4           5           6           7           8           9          10
+               11          12          13          14          15          16          17          18          19          20
+               21          22          23          24          25
+ ............................................................................................................................
+   1            1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+   2            1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+   3            1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+   4            1           1           1          -2          -2          -2          -2           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+   5            1           1          -2          -2          -2          -2          -2           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+   6            1           1          -2          -2          -2          -2          -2           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+   7            1           1          -2          -2          -2          -2          -2           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+   8            1           1          -2          -2          -2          -2          -2           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+   9            1           1          -2          -2          -2          -2          -2           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  10            1           1          -2          -2          -2          -2          -2          -2           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  11            1           1           1          -2          -2          -2          -2          -2           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  12            1           1           1          -2          -2          -2          -2          -2          -2           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  13            1           1           1           1          -2          -2          -2          -2          -2           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  14            1           1           1           1          -2          -2          -2          -2          -2           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  15            1           1           1           1          -2          -2          -2          -2          -2           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  16            1           1           1           1           1          -2          -2          -2          -2           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  17            1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  18            1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  19            1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  20            1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  21            1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  22            1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  23            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  24            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  25            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  26            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  27            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  28            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  29            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  30            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  31            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  32            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  33            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  34            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  35            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  36            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  37            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  38            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  39            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+  40            1           1           1           1           1           1           1           1           3           1
+                1           1           1           1           1           1           1           1           1           1
+                1           1           1           1           1
+
+           BOUNDARY ARRAY =              1 FOR LAYER   2
+
+           BOUNDARY ARRAY =              1 FOR LAYER   3
+
+                 POROSITY =  0.300000     FOR LAYER   1
+
+                 POROSITY =  0.300000     FOR LAYER   2
+
+ POROSITY OF QUASI-3D BED =  0.300000     FOR LAYER   2
+
+                 POROSITY =  0.300000     FOR LAYER   3
+ 
+ CHECKING THE HEAD FILE FOR GRID   1
+ Single Precision Binary Head file
+ READ HEAD FOR PERIOD     1 STEP     1  PERTIM =   1.000000E+00  TOTIM =   1.000000E+00
+ THE HEAD FILE FOR GRID   1 IS COMPLETE.
+ 
+ CHECKING AND INDEXING BUDGET FILE FOR GRID   1
+ Index position =          1
+ READ FLOW PACKAGE BUDGET DATA FOR STRESS PERIOD    1 , TIME STEP    1 ...
+ Single Precision Binary Budget file
+ Reading    CONSTANT HEAD for Period    1   Time Step    1
+ Reading FLOW RIGHT FACE  for Period    1   Time Step    1
+ Reading FLOW FRONT FACE  for Period    1   Time Step    1
+ Reading FLOW LOWER FACE  for Period    1   Time Step    1
+   FLOW RATES BETWEEN CELLS HAVE BEEN READ
+ Reading    RIVER LEAKAGE for Period    1   Time Step    1
+ Reading         RECHARGE for Period    1   Time Step    1
+ THE BUDGET INDEX FOR GRID   1 WAS SUCCESSFULLY CREATED.
+ 
+ENDPOINT ANALYSIS (ISIMTYPE = 1)
+FORWARD TRACKING (ITRACKDIR =  1)
+LET PARTICLES PASS THROUGH WEAK SINK CELLS (ISINK = 1)
+LET PARTICLES PASS THROUGH WEAK SOURCE CELLS FOR BACKTRACKING SIMULATIONS (ISOURCE = 1)
+DO NOT SAVE ADVECTIVE OBSERVATIONS FOR TIME SERIES SIMULATIONS (IADVOBS =  1)
+ 
+PARTICLE OUTPUT FILES:
+ENDPOINT FILE:  MVTEST_SIM_1.endpoint                                                                                                                                                                                   
+ 
+REFERENCE TIME =   0.0000000E+00
+EXTEND INITIAL OR FINAL STEADY-STATE TIMESTEP AND CONTINUE TRACKING (ISTOPT =  2)
+NUMBER OF PARTICLE GROUPS =     1
+ 
+ PARTICLE GROUP     1
+     NAME: PG00            
+     PARTICLES WILL BE GENERATED FOR GRID   1
+     PARTICLES ARE NOT GENERATED FOR CONSTANT HEAD CELLS
+     PARTICLES ARE GENERATED ON CELL FACES.
+     REGION DEFINED BY CELLS (LAYER    1, ROW    1 COLUMN    1) TO (LAYER    1, ROW   40, COLUMN   25)
+     FACE  6:     5 ROWS,     5 COLUMNS
+     SINGLE RELEASE:
+     RELEASE TIME =    0.000000E+00
+     NUMBER OF PARTICLES =     23375
+ 
+TOTAL NUMBER OF PARTICLES FOR ALL GROUPS =      23375
+ 
+DO NOT PERFORM BUDGET CHECKS (IBDOPT =  1)
+ 
+Particles will be terminated when they enter cells with a zone numbers equal to     4
+
+ OPENING FILE ON UNIT   99:
+ ZONES_LAYER_1.CSV                                                                                                                                                                                       
+
+
+
+                         ZONE ARRAY FOR LAYER   1
+ READING ON UNIT   99 WITH FORMAT: (FREE)              
+
+         1    2    3    4    5    6    7    8    9   10   11   12   13   14   15   16   17   18   19   20   21   22   23   24   25
+ .................................................................................................................................
+   1     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+   2     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+   3     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+   4     1    1    1    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+   5     1    1    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+   6     1    1    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+   7     1    1    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+   8     1    1    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+   9     1    1    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  10     1    1    4    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  11     1    1    1    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  12     1    1    1    4    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  13     1    1    1    1    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  14     1    1    1    1    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  15     1    1    1    1    4    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  16     1    1    1    1    1    4    4    4    4    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  17     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  18     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  19     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  20     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  21     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  22     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  23     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  24     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  25     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  26     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  27     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  28     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  29     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  30     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  31     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  32     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  33     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  34     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  35     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  36     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  37     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  38     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  39     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+  40     1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1    1
+
+               ZONE ARRAY =              1 FOR LAYER   2
+
+               ZONE ARRAY =              1 FOR LAYER   3
+ 
+NO RETARDATION. FACTOR = 1 FOR ALL CELLS
+ 
+ 
+ Run particle tracking simulation ...
+ 
+ ----------------------------------------------------------------------------------------------
+Processing Time Step     1 Period     1.  Time =  1.00000E+00                                                                         (Cumulative step =      1)
+ ----------------------------------------------------------------------------------------------
+ PROCESSING HEAD AND BUDGET DATA FOR GRID   1
+ READ HEAD FOR PERIOD     1 STEP     1  PERTIM =   1.000000E+00  TOTIM =   1.000000E+00
+ UPDATE IBOUND FOR NO-FLOW AND DRY CELLS.
+ PROCESS FLOW PACKAGE BUDGET DATA FOR STRESS PERIOD    1 , TIME STEP    1 ...
+ Reading    CONSTANT HEAD for Period    1   Time Step    1
+ Reading FLOW RIGHT FACE  for Period    1   Time Step    1
+ Reading FLOW FRONT FACE  for Period    1   Time Step    1
+ Reading FLOW LOWER FACE  for Period    1   Time Step    1
+ Reading    RIVER LEAKAGE for Period    1   Time Step    1
+      IFACE values will be read from a compact budget list.
+ Reading         RECHARGE for Period    1   Time Step    1
+      Flows will be assigned to face  6
+ 
+Particle summary:
+-----------------
+         0 particles remain active
+     19679 particles terminated in zone    1
+      3696 particles terminated in zone    4
+         0 particles were stranded
+ 
+Default real number precision =         15
+Heads input from single-precision head file.
+Flows input from single-precision compact budget file.
+ 
+End of MODPATH simulation. Normal termination.

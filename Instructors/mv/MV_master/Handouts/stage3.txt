@@ -1,0 +1,66 @@
+              McDonald Valley Calibration Exercise -- Stage 3
+
+                MODIFIED CALIBRATION USING ADDITIONAL DATA
+
+
+Now that you have made a first attempt at calibrating a flow model to existing
+data, you have the opportunity to collect additional data in the field to help
+fill in the gaps in information and, we hope, improve your model of the ground
+water system. After subtracting essential overhead expenses, you have a field
+work budget of $20,000 for the total duration of the study. You will have
+three "field seasons" in which you can collect new data. You should use the
+three field seasons to iterate back and forth between data collection and
+analysis, analyzing the impact of one season's data to plan the next round of
+data collection.
+
+You have the option to collect the following types of data:
+
+1. drill wells 
+
+     shallow wells -- down to a maximum elevation of -100 feet. Shallow 
+                      wells provide water levels for the screened interval 
+                      as well as the location of the water table. You specify
+                      the bottom elevation of the well. All wells are
+                      are assumed to be screened in the lower 5 feet.
+                      Each well comes with a driller's log that includes 
+                      information on major lithology changes with depth.
+
+     deep wells    -- deep wells are guaranteed to reach bedrock. Water 
+                      level information, screened intervals, and well log
+                      information are the same as described for shallow 
+                      wells.
+
+2. hydraulic tests
+
+     slug tests    -- these tests give local values of horizontal hydraulic
+                      conductivity. You can conduct up to 7 slug tests on
+                      any of the 17 pre-existing wells and any number of 
+                      slug tests on the wells that you choose to drill.
+
+     aquifer test  -- this is a large-scale hydraulic test that must be
+                      conducted on a deep well. Since deep wells are always
+                      screened in the lower 5 feet, this test will give you
+                      horizontal conductivity and aquifer thickness. It will
+                      also provide a leakance coefficient if the well
+                      penetrates a confining clay layer. You cannot conduct
+                      an aquifer test on any of the original 17 wells, nor
+                      can you drill new wells in cells that already contain
+                      a well.
+
+3. seismic analysis 
+
+     Seismic sections can be run along any row or column. Each run must be 
+     the full length of a column or a row. Seismic analyses only provide 
+     information on the bedrock elevation. (Please, no arguments from surface
+     geophysicists!)
+
+4. Stream flow measurements
+
+     Discharge measurements are provided at several points along the Straight 
+     River.
+
+In order to keep track of your expenditures, an accounting form has been
+provided. the last page of the accounting form has a table of costs for each
+data item. 
+
+

@@ -1,0 +1,6 @@
+begin modflow_feature_gridder
+  description = ""
+  default_modelgrid_directory = modflow_1
+  show_grid_on_startup = true
+end modflow_feature_gridder
+

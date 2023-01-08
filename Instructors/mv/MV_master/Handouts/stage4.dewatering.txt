@@ -1,0 +1,27 @@
+
+
+                                Extra Run
+
+
+The cooperator has asked you to evaluate one additional development option:
+
+
+* The Reilly well pumps at -67,000 just as in the other cases.
+
+* The Virginia City wells are removed.
+
+* A dewatering operation is initiated at row 23, column 20. The head in 
+  row 23, column 20 must be lowered to 2 feet above datum. 
+
+
+Questions:
+
+1. How much water must be pumped from row 23, column 20, layer 1 to keep the
+head in that cell equal to 2?
+
+2. What will the lake stage be for this situation?
+
+ 
+HINT:  Use a drain with a high drain conductance in row 23, column 20, 
+       layer 1.
+

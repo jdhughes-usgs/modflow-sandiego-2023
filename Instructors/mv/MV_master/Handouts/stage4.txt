@@ -1,0 +1,88 @@
+                McDonald Valley Calibration Exercise -- Stage 4
+
+                           DEVELOPMENT SCENARIOS
+
+
+
+Use your calibrated model to simulate the impact of the following two
+development options:
+
+
+
+Case A.   2 wells;  Reilly Well and Virginia City Well in Location 1
+
+
+
+                    owner       row     column         Q (ft3/d)
+             ---------------------------------------------------
+                   Reilly        6        15        -67000
+             Virginia City(1)   35        16       -268000
+
+
+
+Case B.   2 wells;  Reilly Well and Virginia City Well in Location 2
+
+
+
+                    owner       row     column         Q (ft3/d)
+             ---------------------------------------------------
+                   Reilly        6        15        -67000
+             Virginia City(2)   33         6       -268000
+
+
+
+
+
+Fill in the information on the attached worksheet.
+
+
+                        Calibration Exercise -- Stage 4
+
+                                  worksheet
+
+
+
+Record the following information for your simulated development scenarios in
+cases A and B:
+
+
+Case A.
+-------
+
+1. Head in the lake = _________________
+
+2. Total river discharge at southern boundary = ____________________
+
+3. River discharge at Pollock's Ford (gage 2) = ____________________
+   
+4. Percent change in discharge at gage 2 = _________________________
+     (base the percent change on the difference between your
+      stressed and unstressed simulations) 
+
+5. Is there any induced infiltration from the river to the aquifer.
+   If so, where does it occur and what is the rate?
+
+6. Maximum drawdown in the northern part of the valley = __________
+     (model rows 1 - 16)
+
+
+Case B.
+-------
+
+1. Head in the lake = _________________
+
+2. Total river discharge at southern boundary = ____________________
+
+3. River discharge at Pollock's Ford (gage 2) = ____________________
+
+4. Percent change in discharge at gage 2 = _________________________
+     (base the percent change on the difference between your
+      stressed and unstressed simulations) 
+
+5. Is there any induced infiltration from the river to the aquifer.
+   If so, where does it occur and what is the rate?
+
+6. Maximum drawdown in the northern part of the valley = __________
+     (model rows 1 - 16)
+
+

@@ -1,0 +1,13 @@
+BEGIN options
+END options
+
+BEGIN dimensions
+  MAXBOUND  3
+END dimensions
+
+BEGIN period  1
+  5 1679  -67000.00000000
+  5 8567  -2.68000000E+05
+  5 7382  -2.68000000E+05
+END period  1
+

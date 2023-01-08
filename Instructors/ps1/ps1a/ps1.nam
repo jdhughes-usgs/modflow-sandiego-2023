@@ -1,0 +1,13 @@
+BEGIN Options
+  LIST       ps1.lst
+  SAVE_FLOWS
+END Options
+
+BEGIN Packages
+  DIS6       ps1.dis
+  IC6        ps1.ic
+  NPF6       ps1.npf
+  OC6        ps1.oc
+  CHD6       ps1.chd
+END Packages
+

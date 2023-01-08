@@ -1,0 +1,22 @@
+HEADVIEW
+mv.dis
+
+<DATAFILES>
+# Add head and drawdown data files here
+   D:\Data\Training\GW2096TC\EXER\Week2\McValley\TestRuns\Stage2\MVTEST.HED
+   D:\Data\Training\GW2096TC\EXER\Week2\McValley\TestRuns\Stage2\MVTEST_1.HED
+</DATAFILES>
+
+<SHAPEFILES>
+# Add shapefiles here
+   MVhf.shp ; Hydrologic features ; 12615680 ; 3 ; 0 ; 0
+   MVdev.shp ; Development locations ; 255 ; 1 ; 0 ; 0
+   MVow.shp ; Observation wells ; 0 ; 0 ; 0 ; 3 Value
+</SHAPEFILES>
+
+<OPTIONS>
+# Add display options here
+   ContourColor = 16711680
+   LineWeight = 1
+   BackgroundColor = 16777215
+</OPTIONS>

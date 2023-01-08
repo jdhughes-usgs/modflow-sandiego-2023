@@ -1,0 +1,40 @@
+@ set polygon fill attributes
+PF.STYLE           0
+PF.COLOR          13
+@ set polyline attributes
+PL.COLOR          10
+PL.STYLE           3
+@ set text attributes
+TX.ALIGN           2         2
+TX.COLOR           3
+TX.SIZE         0.75
+@ wait until contours have been drawn, then outline lake and stream
+@ this is the lake
+PL.BEGIN           4         1         0         1
+                4513     11983      
+                2520     11983      
+                2492     12524      
+                2008     12524      
+                2008     13976      
+                1524     14004      
+                1524     15001      
+                1040     15001      
+                1040     17990      
+                1524     17990      
+                1524     18503      
+                3517     18503      
+                3545     15513      
+                4001     15485      
+                4029     14488      
+                4513     14488      
+PL.END
+@ this is the stream
+PL.BEGIN           4         1         0         0
+                4000         0      
+                4000      9000      
+                4500      9000      
+                4500         0      
+PL.END
+@
+@ plot the well numbers at the location of each well
+@

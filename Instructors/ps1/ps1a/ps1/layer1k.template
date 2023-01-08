@@ -1,0 +1,10 @@
+begin gridder_template
+  template_name = layer1k
+  template_type = attribute_value
+  description = Layer1K
+  data_field = value
+  is_integer = false
+  default_value = 50
+  no_data_value = 0
+end gridder_template
+
