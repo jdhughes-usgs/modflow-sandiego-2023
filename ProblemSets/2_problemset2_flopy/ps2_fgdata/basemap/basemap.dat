@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Basemap>
+  <BasemapLayer>
+    <LocalName>river_ln.shp</LocalName>
+    <Description>River</Description>
+    <Color>
+      <R>0</R>
+      <G>128</G>
+      <B>255</B>
+    </Color>
+    <Size>4</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>drain_ln.shp</LocalName>
+    <Description>Drain</Description>
+    <Color>
+      <R>0</R>
+      <G>255</G>
+      <B>0</B>
+    </Color>
+    <Size>4</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>well_ln.shp</LocalName>
+    <Description>Well 1</Description>
+    <Color>
+      <R>255</R>
+      <G>0</G>
+      <B>0</B>
+    </Color>
+    <Size>4</Size>
+    <Style>1</Style>
+    <Visible>True</Visible>
+  </BasemapLayer>
+  <BasemapLayer>
+    <LocalName>well_2_ln.shp</LocalName>
+    <Description>Well 2</Description>
+    <Color>
+      <R>255</R>
+      <G>0</G>
+      <B>0</B>
+    </Color>
+    <Size>4</Size>
+    <Style>1</Style>
+    <Visible>False</Visible>
+  </BasemapLayer>
+</Basemap>
