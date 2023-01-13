@@ -1,0 +1,10 @@
+begin options
+  print_input
+end options
+
+begin Continuous FILEOUT sfr.csv
+  GWFFLOW   SFR    river
+  usstage   STAGE  1
+  dsstage   STAGE  18
+  discharge ext-outflow 18   
+end Continuous

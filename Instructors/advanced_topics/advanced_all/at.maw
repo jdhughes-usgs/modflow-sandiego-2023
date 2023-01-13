@@ -1,0 +1,63 @@
+begin options
+  print_input
+  print_head
+  print_flows
+  boundnames
+  head fileout at.maw.hds
+  budget fileout at.maw.cbc
+  mover
+end options
+
+begin dimensions
+  nmawwells 4
+end dimensions
+
+begin packagedata
+#  wellno radius bottom strt condeqn ngwnodes name
+        1   0.25 -220.0 12.0   thiem        2 Reilly
+        2   0.25 -220.0  5.0   thiem        5 VC1
+        3   0.25 -270.0  2.0   thiem        5 VC2
+        4   0.25 -220.0  2.0   thiem        1 Mover
+end packagedata
+
+begin connectiondata
+# wellno conn l  r  c  stop sbot  k  rskin
+       1    1 4  6 15     0    0  0      0
+       1    2 5  6 15     0    0  0      0
+       2    1 1 35 16     0    0  0      0
+       2    2 2 35 16     0    0  0      0
+       2    3 3 35 16     0    0  0      0
+       2    4 4 35 16     0    0  0      0
+       2    5 5 35 16     0    0  0      0
+       3    1 1 33  6     0    0  0      0
+       3    2 2 33  6     0    0  0      0
+       3    3 3 33  6     0    0  0      0
+       3    4 4 33  6     0    0  0      0
+       3    5 5 33  6     0    0  0      0
+       4    1 4 17 10     0    0  0      0
+end connectiondata
+
+begin period 1
+  1 status inactive
+  2 status inactive
+  3 status inactive
+  4 status inactive
+end period
+
+begin period 2
+  1 status active
+  2 status active
+  1 rate -67000.0
+  2 rate -268000.0
+end period
+
+begin period 3
+  2 status inactive
+  3 status active
+  3 rate -268000.0
+end period
+
+begin period 4
+  4 status active
+  4 rate -60000.0
+end period
