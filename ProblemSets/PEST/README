@@ -1,0 +1,22 @@
+There are 3 notebooks in this directory:
+
+1) obs_prototype.ipynb
+2) pest_ies_setup.ipynb
+3) ies_postprocess.ipynb
+
+The first one just shows how to make an instruction file. 
+
+The second sets up and runs PEST++
+
+The third one postprocesses the results.
+
+Enjoy!
+
+for more tutorials and examples check out:
+https://github.com/gmdsi/GMDSI_notebooks/tree/main/tutorials
+
+and
+
+https://github.com/DOI-USGS/neversink_workflow
+
+ 
