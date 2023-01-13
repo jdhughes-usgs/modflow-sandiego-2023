@@ -1,0 +1,18 @@
+BEGIN Options
+END Options
+
+BEGIN Timing
+  TDIS6  ps2.tdis
+END Timing
+
+BEGIN Models
+  GWF6  ps2.nam  ps2
+END Models
+
+BEGIN Exchanges
+END Exchanges
+
+BEGIN SolutionGroup 1
+  MXITER  1
+  IMS6  ps2.ims  ps2
+END SolutionGroup

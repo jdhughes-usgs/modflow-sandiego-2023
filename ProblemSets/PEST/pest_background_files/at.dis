@@ -27,7 +27,7 @@ BEGIN GRIDDATA
   IDOMAIN LAYERED
     CONSTANT 1
     CONSTANT 1
-    CONSTANT 1
+    open/close clay_zones.ib.ref
     CONSTANT 1
     CONSTANT 1
 END GRIDDATA

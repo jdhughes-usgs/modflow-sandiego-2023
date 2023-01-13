@@ -1,0 +1,14 @@
+BEGIN Options
+  LIST       ps2.lst
+  SAVE_FLOWS
+END Options
+
+BEGIN Packages
+  DIS6       ps2.dis
+  IC6        ps2.ic
+  NPF6       ps2.npf
+  OC6        ps2.oc
+  CHD6       ps2.chd
+  RCH6       ps2.rch
+END Packages
+
